@@ -1,0 +1,47 @@
+﻿<Window x:Name="MAIN_WINDOW" x:Class="Blocknote.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blocknote"
+        mc:Ignorable="d"
+        Title="Блокнот" Height="450" Width="800" Closing="Closing_MainWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="321*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="24*"/>
+            <ColumnDefinition Width="769*"/>
+        </Grid.ColumnDefinitions>
+        <Menu x:Name="MENU" Height="25" VerticalAlignment="Top" Background="#FFDEDEDE" Grid.ColumnSpan="2" Margin="0,0,0.333,0">
+            <MenuItem x:Name="FILES" Header="Файл">
+                <MenuItem x:Name="CREATE" Header="Создать" Click="CREATE_NEW_DOCUMENT"></MenuItem>
+                <MenuItem x:Name="OPEN" Header="Открыть" Click="OPENFILE"></MenuItem>
+                <MenuItem x:Name="SAVE" Header="Сохранить" Click="SAVE_CLICK"></MenuItem>
+                <MenuItem x:Name="SAVE_AS" Header="Сохранить как..." Click="SAVE_AS_CLICK"></MenuItem>
+                <MenuItem x:Name="EXIT" Header="Выход" Click="EXIT_APPLICATION"></MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="EDIT" Header="Правка">
+                <MenuItem x:Name="SELECT_ALL" Header="Выделить всё" Click="SELECT_ALL_Click"></MenuItem>
+                <MenuItem x:Name="TIME_AND_DATE" Header="Время и дата" Click="DATE_TIME_CLICK"></MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="FORMAT" Header="Формат">
+                <MenuItem x:Name="FONTS" Header="Шрифт...">
+                    <MenuItem x:Name="SEGOE" Header="Segoe UI" Click="Segoe_Chosen"/>
+                    <MenuItem x:Name="TNR" Header="Times New Roman" FontFamily="Times New Roman" Click="TNR_Chosen"/>
+                    <MenuItem x:Name="COMIC" Header="Comic Sans" FontFamily="Comic Sans MS" Click="Comic_Chosen"/>
+                </MenuItem>
+                <MenuItem x:Name="COLOR" Header="Цвет...">
+                    <MenuItem x:Name="BLACK" Header="Чёрный" Click="Black_Chosen"/>
+                    <MenuItem x:Name="RED" Header="Красный" Foreground="#FFA30000" Click="Red_Chosen"/>
+                    <MenuItem x:Name="BLUE" Header="Синий" Foreground="#FF0000DB" Click="Blue_Chosen"/>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <TextBox x:Name="TEXT_FIELD" HorizontalAlignment="Left" Height="386" AcceptsReturn="True" TextWrapping="Wrap" VerticalAlignment="Top" Width="793" Margin="0,25,0,0" TextChanged="TEXT_FIELD_TextChanged" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+    </Grid>
+</Window>
+
+    

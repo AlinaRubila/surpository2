@@ -1,0 +1,16 @@
+﻿<Window x:Name="Do_You_Want_Saving" x:Class="Blocknote.Properties.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blocknote.Properties"
+        mc:Ignorable="d"
+        Title="Вы хотите сохраниться?" Height="183.333" Width="405.333">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Если вы выйдете, то можете потерять данные. Вы уверены, что хотите выйти?" VerticalAlignment="Top" Margin="72,34,0,0" Height="45" Width="258" TextAlignment="Center"/>
+        <Button x:Name="YES" Content="Да" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="72,104,0,0" Click="YES_Click"/>
+        <Button x:Name="NO" Content="Нет" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="169,104,0,0" Click="NO_Click"/>
+        <Button x:Name="CANCEL_OP" Content="Отмена" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="272,104,0,0" Click="CANCEL_OP_Click"/>
+
+    </Grid>
+</Window>

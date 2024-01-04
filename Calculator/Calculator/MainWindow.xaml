@@ -1,0 +1,38 @@
+﻿<Window x:Class="Laboratory_Work_2_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laboratory_Work_2_WPF"
+        mc:Ignorable="d"
+        Title="Calculator" Height="450" Width="400" Background="#FFFFEAF8">
+    <Grid Background="#FFFFDDFF" Margin="0,0,-180.667,-19.333">
+        <Button x:Name="ONE" Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="57" Margin="11,136,0,0" Height="59" FontSize="15" Background="#FF87D7FF" Click="Button_Click" RenderTransformOrigin="0.43,1.376"/>
+        <Button x:Name="TWO" Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="56" Margin="107,136,0,0" Height="59" FontSize="15" Background="#FF87D7FF" Click="Button_Click" RenderTransformOrigin="0.521,0.482"/>
+        <Button x:Name="THREE" Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="59" Margin="208,136,0,0" Height="59" RenderTransformOrigin="0.294,0.544" FontSize="15" Background="#FF87D7FF" Click="Button_Click"/>
+        <Button x:Name="FOUR" Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="57" Margin="10,221,0,0" Height="60" RenderTransformOrigin="0.583,2.142" FontSize="15" Background="#FFB1E5FF" Click="Button_Click"/>
+        <Button x:Name="FIVE" Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="56" Margin="107,221,0,0" Height="60" RenderTransformOrigin="1.043,1.301" FontSize="15" Background="#FFB1E5FF" Click="Button_Click"/>
+        <Button x:Name="SIX" Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="59" Margin="208,221,0,0" Height="60" RenderTransformOrigin="0.685,0.779" FontSize="15" Background="#FFB1E5FF" Click="Button_Click"/>
+        <Button x:Name="SEVEN" Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="57" Margin="10,312,0,0" Height="57" FontSize="15" Background="#FFCAECFE" Click="Button_Click"/>
+        <Button x:Name="EIGHT" Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="56" Margin="107,312,0,0" Height="57" RenderTransformOrigin="1.827,3.302" FontSize="15" Background="#FFCAECFE" Click="Button_Click"/>
+        <Button x:Name="NINE" Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="59" Margin="208,312,0,0" Height="57" FontSize="15" Background="#FFCAECFE" Click="Button_Click"/>
+        <TextBox x:Name="WINDOU" HorizontalAlignment="Left" Height="61" TextWrapping="Wrap" VerticalAlignment="Top" Width="373" Margin="10,10,0,0" Background="#FFFFEFFF"/>
+        <Button x:Name="NULL" Content="0" HorizontalAlignment="Left" Height="55" Margin="107,385,0,0" VerticalAlignment="Top" Width="56" FontSize="15" RenderTransformOrigin="0.559,1.798" Background="#FFE0F4FF" Click="Button_Click"/>
+        <Button x:Name="C" Content="C" HorizontalAlignment="Left" VerticalAlignment="Top" Width="57" Margin="10,76,0,0" Height="32" FontSize="15" Background="#FFFFBAFF" RenderTransformOrigin="-2.133,0.585" Click="C_Click"/>
+        <Button x:Name="PLUS" Content="+" HorizontalAlignment="Left" VerticalAlignment="Top" Width="57" Margin="307,134,0,0" Height="59" RenderTransformOrigin="0.294,0.544" FontSize="20" Background="#FF87B6FF" Click="ButtonPLUS_Click"/>
+        <Button x:Name="MINUS" Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" Width="57" Margin="307,219,0,0" Height="60" RenderTransformOrigin="0.294,0.544" FontSize="20" Background="#FF98BEFA" Click="MINUS_Click"/>
+        <Button x:Name="MULTY" Content="*" HorizontalAlignment="Left" VerticalAlignment="Top" Width="57" Margin="307,309,0,0" Height="59" RenderTransformOrigin="0.294,0.544" FontSize="20" Background="#FFB1CFFF" Click="MULTY_Click"/>
+        <Button x:Name="DIVIDE" Content="/" HorizontalAlignment="Left" VerticalAlignment="Top" Width="57" Margin="307,382,0,0" Height="58" RenderTransformOrigin="0.294,0.544" FontSize="20" Background="#FFC1D8FE" Click="DIVIDE_Click"/>
+        <Button x:Name="EQUAL" Content="=" HorizontalAlignment="Left" VerticalAlignment="Top" Width="59" Margin="208,383,0,0" Height="57" RenderTransformOrigin="0.294,0.544" FontSize="20" Background="#FFB29FFF" Click="EQUAL_Click"/>
+        <Button x:Name="PLUNUS" Content="+/-" HorizontalAlignment="Left" Height="55" Margin="11,386,0,0" VerticalAlignment="Top" Width="56" FontSize="15" RenderTransformOrigin="0.559,1.798" Background="#FFE0F4FF" Click="PLUNUS_Click"/>
+        <Button x:Name="BACKWARD" Content="&lt;--" HorizontalAlignment="Left" VerticalAlignment="Top" Width="57" Margin="106,76,0,0" Height="32" FontSize="15" Background="#FFFFBAFF" RenderTransformOrigin="-2.133,0.585" Click="BACKWARD_Click"/>
+        <Label x:Name="WHATSOLVE" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,43,0,0" Width="211" Height="28"/>
+        <ListBox x:Name="ListBoxy" HorizontalAlignment="Left" Height="119" VerticalAlignment="Top" Width="132" Margin="409,76,0,0" Background="#FFFFEFFF"/>
+        <CheckBox x:Name="CheckyBOX" Content="Показывать историю?" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="409,43,0,0" Height="33" Width="155" Checked="CheckyBOX_Checked"/>
+        <Button x:Name="ClearAllButton" Content="Отчистить всё" HorizontalAlignment="Left" VerticalAlignment="Top" Width="107" Margin="409,206,0,0" Background="#FFFFBAFF" RenderTransformOrigin="1.028,0.387" Click="ClearAllButton_Click"/>
+        <Button x:Name="ClearLastButton" Content="Отчистить последнее" HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Margin="409,242,0,0" Background="#FFFFBAFF" RenderTransformOrigin="1.028,0.387" Click="ClearLastButton_Click"/>
+        <RadioButton x:Name="VisibleButton" Content="Показать" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="409,10,0,0" Checked="VisibleButton_Checked"/>
+        <RadioButton x:Name="InvisibleButton" Content="Убрать " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="483,10,0,0" Checked="InvisibleButton_Checked"/>
+
+    </Grid>
+</Window>

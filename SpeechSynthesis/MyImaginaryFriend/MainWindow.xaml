@@ -1,0 +1,21 @@
+﻿<Window x:Class="MyImaginaryFriend.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyImaginaryFriend"
+        mc:Ignorable="d"
+        Title="My Imaginary Friend" Height="450" Width="800" Background="#FFFFD6F1">
+    <Grid>
+        <TextBox x:Name="TextToSay" HorizontalAlignment="Left" Height="95" AcceptsReturn="True" TextWrapping="Wrap" VerticalAlignment="Top" Width="620" Margin="76,62,0,0" Background="#FFD8EEFF"/>
+        <TextBlock x:Name="HintForUser" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Напиши что-нибудь ниже)" VerticalAlignment="Top" Margin="76,41,0,0" Height="21" Width="620"/>
+        <Button x:Name="VoiceOfFriend" Content="Я скажу..." HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="218" Margin="295,0,0,137.667" Height="44" Background="#FFAADDFF" Click="VoiceOfFriend_Click"/>
+        <Button x:Name="ClearAll" Content="Очистить всё" HorizontalAlignment="Left" VerticalAlignment="Top" Width="109" Margin="76,162,0,0" Background="#FFAADDFF" Click="ClearAll_Click"/>
+        <CheckBox x:Name="HelloOrNot" Content="С приветом?" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="76,188,0,0" Checked="HelloOrNot_Checked" Unchecked="HelloOrNotUnchecked"/>
+        <Button x:Name="OpenText" Content="Открыть файл" HorizontalAlignment="Left" VerticalAlignment="Top" Width="114" Margin="220,162,0,0" Background="#FFAADDFF" Click="OpenText_Click"/>
+        <Button x:Name="SaveResult" Content="Сохранить результат на компьютере" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="218" Margin="76,0,0,9.667" Height="35" Background="#FFD1EDFF" Click="SaveResult_Click"/>
+        <TextBox x:Name="NameOfFile" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" Margin="76,323,0,0" Background="#FFFFF1FA" Text="NewSynth"/>
+        <TextBlock x:Name="HintTwo" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Имя файла (хранится в MyImaginaryFriend/bin/Debug)" VerticalAlignment="Top" Margin="76,302,0,0"/>
+
+    </Grid>
+</Window>

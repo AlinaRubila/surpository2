@@ -1,0 +1,15 @@
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\bin\Debug\Laboratory Work 2 WPF.exe.config
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\bin\Debug\Laboratory Work 2 WPF.exe
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\bin\Debug\Laboratory Work 2 WPF.pdb
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\obj\Debug\Laboratory Work 2 WPF.csproj.AssemblyReference.cache
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\obj\Debug\MainWindow.g.cs
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\obj\Debug\App.g.cs
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\obj\Debug\Laboratory Work 2 WPF_MarkupCompile.cache
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\obj\Debug\Laboratory Work 2 WPF_MarkupCompile.lref
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\obj\Debug\MainWindow.baml
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\obj\Debug\Laboratory Work 2 WPF.g.resources
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\obj\Debug\Laboratory_Work_2_WPF.Properties.Resources.resources
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\obj\Debug\Laboratory Work 2 WPF.csproj.GenerateResource.cache
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\obj\Debug\Laboratory Work 2 WPF.csproj.CoreCompileInputs.cache
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\obj\Debug\Laboratory Work 2 WPF.exe
+C:\Users\angry\source\repos\Laboratory Work 2 WPF\obj\Debug\Laboratory Work 2 WPF.pdb

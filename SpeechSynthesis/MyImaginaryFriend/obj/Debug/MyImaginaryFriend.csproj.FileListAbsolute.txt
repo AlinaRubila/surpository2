@@ -1,0 +1,15 @@
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\bin\Debug\MyImaginaryFriend.exe.config
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\bin\Debug\MyImaginaryFriend.exe
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\bin\Debug\MyImaginaryFriend.pdb
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\obj\Debug\MyImaginaryFriend.csproj.AssemblyReference.cache
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\obj\Debug\MainWindow.g.cs
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\obj\Debug\App.g.cs
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\obj\Debug\MyImaginaryFriend_MarkupCompile.cache
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\obj\Debug\MyImaginaryFriend_MarkupCompile.lref
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\obj\Debug\MainWindow.baml
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\obj\Debug\MyImaginaryFriend.g.resources
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\obj\Debug\MyImaginaryFriend.Properties.Resources.resources
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\obj\Debug\MyImaginaryFriend.csproj.GenerateResource.cache
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\obj\Debug\MyImaginaryFriend.csproj.CoreCompileInputs.cache
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\obj\Debug\MyImaginaryFriend.exe
+C:\Users\angry\OneDrive\Рабочий стол\ТПП\лр7\MyImaginaryFriend\obj\Debug\MyImaginaryFriend.pdb

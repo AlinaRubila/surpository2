@@ -1,0 +1,17 @@
+﻿<Window x:Name="FONTS_TO_CHOOSE" x:Class="Blocknote.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blocknote"
+        mc:Ignorable="d"
+        Title="Fonts" Height="112.271" Width="239.554">
+    <Grid>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="56,25,0,0">
+            <ComboBoxItem x:Name="SEGOE" IsSelected="True" Selected="SEGOE_Selected" >Segoe UI</ComboBoxItem>
+            <ComboBoxItem x:Name="CONSOLAS" FontFamily="Consolas" >Consolas</ComboBoxItem>
+            <ComboBoxItem x:Name="COMICSANS" FontFamily="Comic Sans MS" >Comic Sans</ComboBoxItem>
+            <ComboBoxItem x:Name="TIMESNEWROMAN" FontFamily="Times New Roman" >Times New Roman</ComboBoxItem>
+        </ComboBox>
+    </Grid>
+</Window>

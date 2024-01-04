@@ -1,0 +1,30 @@
+﻿<Window x:Name="NOTES" x:Class="LaboratoryWork_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LaboratoryWork_4"
+        mc:Ignorable="d"
+        Title="Заметки" Height="450" Width="800" Closing="NOTES_Closing" Activated="NOTES_Activated" Background="White">
+    <Grid>
+        <TextBox x:Name="TheField" HorizontalAlignment="Left" Height="345" TextWrapping="Wrap" AcceptsReturn="True" VerticalAlignment="Top" Width="701" Margin="43,66,0,0" BorderBrush="White"/>
+        <ComboBox x:Name="ColorOfWindow" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="70,39,0,0">
+            <ComboBoxItem x:Name="White" Selected="White_Selected">White</ComboBoxItem>
+            <ComboBoxItem x:Name="Pink" Selected="Pink_Selected">Pink</ComboBoxItem>
+            <ComboBoxItem x:Name="Blue" Selected="Blue_Selected">Blue</ComboBoxItem>
+            </ComboBox>
+        <ComboBox x:Name="FontsOfText" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="253,39,0,0">
+            <ComboBoxItem x:Name="SegoeUI" Selected="SegoeUI_Selected">Segoe UI</ComboBoxItem>
+            <ComboBoxItem x:Name="TimesNewRoman" Selected="TimesNewRoman_Selected">Times New Roman</ComboBoxItem>
+            </ComboBox>
+        <ComboBox x:Name="SizeOfText" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="431,39,0,0">
+            <ComboBoxItem x:Name="Twelve" Selected="Twelve_Selected">12 px</ComboBoxItem>
+            <ComboBoxItem x:Name="Fifteen" Selected="Fifteen_Selected">15 px</ComboBoxItem>
+            <ComboBoxItem x:Name="Eighteen" Selected="Eighteen_Selected">18 px</ComboBoxItem>
+            </ComboBox>
+        <Label x:Name="ForColor" Content="Цвет панели" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="2.719,0.41" Margin="70,13,0,0"/>
+        <Label x:Name="ForFonts" Content="Шрифт" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="2.719,0.41" Margin="253,13,0,0"/>
+        <Label x:Name="ForSize" Content="Размер текста" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="2.719,0.41" Margin="431,13,0,0"/>
+
+    </Grid>
+</Window>
